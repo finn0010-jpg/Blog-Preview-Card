@@ -9,12 +9,70 @@ body {
     display: flex;
     flex-direction: column;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 10px;
+    border-radius: 15px;
     width: 375px;
     justify-self: center;
     align-items: center;
     margin-top: 10%;
-    border: 1px solid black;
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 1);
-    padding: 2px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
+    padding: 15px;
+}
+
+div .head {
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+figure {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-self: left;
+    margin: 0;
+    padding: 0;
+}
+
+figure .profile {
+    scale: 0.6;
+}
+
+figure figcaption {
+    align-self: center;
+    font-weight: 800;
+    font-size: 14px;
+    color: hsl(0, 0%, 7%)
+}
+
+.text{
+    padding-left: 5px;
+}
+
+.date {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.body {
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+}
+
+.text h1 {
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.main {
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.attribution {
+    margin-top: 20px;
 }
